@@ -14,5 +14,9 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="memory_match" />
+    <orderEntry type="module" module-name="lfz" />
+    <orderEntry type="module" module-name="sgt_react" />
+    <orderEntry type="module" module-name="calculator" />
   </component>
 </module>
