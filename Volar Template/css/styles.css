@@ -2288,7 +2288,7 @@ small,
     Home Section
     About Section
     Facts Section
-    Services Section
+    skills Section
     Works Section
     Project Order
     Team Section
@@ -2846,23 +2846,23 @@ body {
   margin-bottom: 0;
 }
 /*===================================
-= Services Section                  =
+= skills Section                  =
 ===================================*/
-.services-section-item {
+.skills-section-item {
   -webkit-perspective: 300px;
           perspective: 300px;
   text-align: center;
 }
-.services-item-title {
+.skills-item-title {
   margin-bottom: 15px;
   margin-top: 15px;
   font-weight: 300;
 }
-.services-section-item-icon {
+.skills-section-item-icon {
   margin: 0 auto;
   font-size: 44px;
 }
-.services-section-item-text {
+.skills-section-item-text {
   font-size: 14px;
 }
 /*=============================
@@ -6962,45 +6962,45 @@ min-width: 768px
     -webkit-transition: width 2000ms cubic-bezier(0.26, 0.765, 0.07, 1.095);
             transition: width 2000ms cubic-bezier(0.26, 0.765, 0.07, 1.095);
   }
-  /*  Services Section */
-  .services-section-item {
+  /*  skills Section */
+  .skills-section-item {
     margin-bottom: 40px;
   }
-  .no-touch.cssanimations .services-section-item {
+  .no-touch.cssanimations .skills-section-item {
     margin-bottom: 0;
   }
-  .no-touch.cssanimations .services-section-item-icon {
+  .no-touch.cssanimations .skills-section-item-icon {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.3s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s;
             transition: transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.3s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s;
   }
-  .no-touch.cssanimations .services-item-title {
+  .no-touch.cssanimations .skills-item-title {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s;
             transition: transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s;
   }
-  .no-touch.cssanimations .services-section-item-text {
+  .no-touch.cssanimations .skills-section-item-text {
     opacity: 0;
     -webkit-transform: rotate3d(1, 0, 0, -90deg) translate3d(0, 50px, 0);
             transform: rotate3d(1, 0, 0, -90deg) translate3d(0, 50px, 0);
     -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.2s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0.3s;
             transition: transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.2s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0.3s;
   }
-  .no-touch.cssanimations .services-section-item:hover .services-section-item-icon {
+  .no-touch.cssanimations .skills-section-item:hover .skills-section-item-icon {
     opacity: 0;
     -webkit-transform: rotate3d(1, 0, 0, 80deg) translate3d(0, -50px, 50px);
             transform: rotate3d(1, 0, 0, 80deg) translate3d(0, -50px, 50px);
     -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.3s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0.2s;
             transition: transform 0.7s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0s, opacity 0.3s cubic-bezier(0.26, 0.86, 0.44, 0.985) 0.2s;
   }
-  .no-touch.cssanimations .services-section-item:hover .services-item-title {
+  .no-touch.cssanimations .skills-section-item:hover .skills-item-title {
     -webkit-transform: translate3d(0, -75px, 0);
             transform: translate3d(0, -75px, 0);
   }
-  .no-touch.cssanimations .services-section-item:hover .services-section-item-text {
+  .no-touch.cssanimations .skills-section-item:hover .skills-section-item-text {
     opacity: 1;
     -webkit-transform: translate3d(0, -70px, 0);
             transform: translate3d(0, -70px, 0);
@@ -7195,21 +7195,21 @@ Blended
     margin: 20px 0;
   }
 }
-.services-section {
+.skills-section {
   padding-bottom: 0;
 }
 @media (min-width: 768px) {
-  .services-section {
+  .skills-section {
     padding-bottom: 0px;
   }
 }
 @media (min-width: 992px) {
-  .services-section {
+  .skills-section {
     padding-bottom: 10px;
   }
 }
 @media (min-width: 1200px) {
-  .services-section {
+  .skills-section {
     padding-bottom: 50px;
   }
 }
