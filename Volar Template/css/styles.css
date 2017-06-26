@@ -2933,9 +2933,9 @@ body {
 .portfolio-item-img img {
   width: 100%;
   height: auto;
-  -webkit-transform: scale(1.07);
-      -ms-transform: scale(1.07);
-          transform: scale(1.07);
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
 }
 .portfolio-item-img:after {
   content: " ";
@@ -6875,7 +6875,7 @@ min-width: 768px
   }
   /* Works buttons */
   .portfolio-filters .btn {
-    min-width: 130px;
+    min-width: 100px;
   }
   .portfolio-container {
     -webkit-transition: height .5s;
