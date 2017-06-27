@@ -6918,6 +6918,9 @@ min-width: 768px
     display: inline;
     line-height: 1.2;
   }
+.portfolio-item-detail p {
+    text-transform: none;
+}
   .portfolio-item:hover .portfolio-item-detail {
     -webkit-transition: opacity 0.15s, -webkit-transform 0.25s;
             transition: opacity 0.15s, transform 0.25s;
