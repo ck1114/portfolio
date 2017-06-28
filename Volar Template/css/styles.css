@@ -3038,6 +3038,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 1px;
+  text-transform: none;
 }
 .portfolio-item-detail a {
   font-size: 28px;
@@ -3063,6 +3064,7 @@ body {
           transform: scale(1);
 }
 .portfolio-item:hover .portfolio-item-title {
+  margin-bottom: 10px;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -3071,6 +3073,9 @@ body {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0) scale(1);
           transform: translate3d(0, 0, 0) scale(1);
+}
+.portfolio-item:hover .portfolio-item-detail p {
+  margin-bottom: 10px;
 }
 /*=====================================
 = Project Order                       =
@@ -6918,9 +6923,6 @@ min-width: 768px
     display: inline;
     line-height: 1.2;
   }
-.portfolio-item-detail p {
-    text-transform: none;
-}
   .portfolio-item:hover .portfolio-item-detail {
     -webkit-transition: opacity 0.15s, -webkit-transform 0.25s;
             transition: opacity 0.15s, transform 0.25s;
