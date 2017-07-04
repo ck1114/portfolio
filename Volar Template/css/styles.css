@@ -6920,18 +6920,9 @@ min-width: 768px
     display: inline;
     line-height: 1.2;
   }
-  .mobile .portfolio-item-detail {
-    transform: translate3d(0, 20px, 0) scale(1.15);
-    visibilty: hidden;
-
-  }
   .portfolio-item:hover .portfolio-item-detail {
     -webkit-transition: opacity 0.15s, -webkit-transform 0.25s;
             transition: opacity 0.15s, transform 0.25s;
-  }
-  .mobile .portfolio-item:hover .portfolio-item-detail {
-    visibility: visible;
-    transition: visibility 0s ease .5s;
   }
   /* Process Lables */
   .process-labels span {
