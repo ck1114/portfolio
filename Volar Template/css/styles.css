@@ -2200,32 +2200,32 @@ small,
   ========================================
 */
 .text-mask-light {
-  background-image: url(../img/backgrounds/home-background-01.jpg);
+  background-image: url(../img/backgrounds/background_photo.jpeg);
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
 }
 .retina-support .text-mask-light .cd-headline {
-  background-image: url("../img/backgrounds/home-background-01.jpg");
+  background-image: url("../img/backgrounds/background_photo.jpeg");
 }
 @media only screen and (min-device-width: 320px) {
   .retina-support .text-mask-light .cd-headline {
-    background-image: url("../img/backgrounds/home-background-01.jpg");
+    background-image: url("../img/backgrounds/background_photo.jpeg");
   }
 }
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2.4), (min--moz-device-pixel-ratio: 2.4), (-webkit-min-device-pixel-ratio: 2.4), (min-resolution: 2.4dppx) {
   .retina-support .text-mask-light .cd-headline {
-    background-image: url("../img/backgrounds/home-background-01@2x.jpg");
+    background-image: url("../img/backgrounds/background_photo@2x.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) {
   .retina-support .text-mask-light .cd-headline {
-    background-image: url("../img/backgrounds/home-background-01@lg.jpg");
+    background-image: url("../img/backgrounds/background_photo@lg.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .retina-support .text-mask-light .cd-headline {
-    background-image: url("../img/backgrounds/home-background-01@lg2x.jpg");
+    background-image: url("../img/backgrounds/background_photo@lg2x.jpg");
   }
 }
 .text-mask {
@@ -2553,7 +2553,7 @@ body {
  -------------------------
  */
 .owl-hs-slide-01 {
-  background-image: url(../img/backgrounds/home-background-01.jpg);
+  background-image: url(../img/backgrounds/background_photo.jpeg);
 }
 .owl-hs-slide-02 {
   background-image: url(../img/backgrounds/home-background-02.jpg);
@@ -2562,11 +2562,11 @@ body {
   background-image: url(../img/backgrounds/home-background-03.jpg);
 }
 .retina-support .owl-hs-slide-01 {
-  background-image: url("../img/backgrounds/home-background-01.jpg");
+  background-image: url("../img/backgrounds/background_photo.jpeg");
 }
 @media only screen and (min-device-width: 320px) {
   .retina-support .owl-hs-slide-01 {
-    background-image: url("../img/backgrounds/home-background-01.jpg");
+    background-image: url("../img/backgrounds/background_photo.jpeg");
   }
 }
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2.4), (min--moz-device-pixel-ratio: 2.4), (-webkit-min-device-pixel-ratio: 2.4), (min-resolution: 2.4dppx) {
@@ -2636,7 +2636,7 @@ body {
  */
 .bg-slide-1 {
   opacity: 1;
-  background: url(../img/backgrounds/home-background-01.jpg) no-repeat center center;
+  background: url(../img/backgrounds/background_photo.jpeg) no-repeat center center;
   background-size: cover;
 }
 .bg-slide-2 {
@@ -2652,11 +2652,11 @@ body {
   background-size: cover;
 }
 .retina-support .bg-slide-1 {
-  background-image: url("../img/backgrounds/home-background-01.jpg");
+  background-image: url("../img/backgrounds/background_photo.jpeg");
 }
 @media only screen and (min-device-width: 320px) {
   .retina-support .bg-slide-1 {
-    background-image: url("../img/backgrounds/home-background-01.jpg");
+    background-image: url("../img/backgrounds/background_photo.jpeg");
   }
 }
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2.4), (min--moz-device-pixel-ratio: 2.4), (-webkit-min-device-pixel-ratio: 2.4), (min-resolution: 2.4dppx) {
