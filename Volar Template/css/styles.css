@@ -2547,6 +2547,10 @@ body {
 }
 .home-bg {
   background-image: url(../img/backgrounds/background_photo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 /* 
  Home section Owl slider Backgrounds
