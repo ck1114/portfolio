@@ -25,7 +25,7 @@ if (!isMobile) {
             // Scrolling Core
             frameRate: 150, // [Hz]
             animationTime: 600, // [px]
-            stepSize: 150, // [px]
+            stepSize: 70, // [px]
 
             // Pulse (less tweakable)
             // ratio of "tail" to "acceleration"
